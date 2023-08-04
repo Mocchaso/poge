@@ -11,12 +11,12 @@ define('DB_USE', "1");
 
 // MySql or Postgresql
 define('DB_NAME', "MySql");
-define('HOST_NAME' , 'localhost');
-define('USER_NAME' , 'root');
-define('PASSWORD' , '198926yasusama');
+define('HOST_NAME' , 'localhost'); // TODO: 適宜調整する。
+define('USER_NAME' , 'root'); // TODO: 適宜調整する。
+define('PASSWORD' , '198926yasusama'); // TODO: 適宜調整する。
 define('DATABASE' , 'poge');
 header('Content-Type: text/html; charset=UTF-8');
-define('SYSTEM_ROOT' , '/home/yasuaki/www/tools.codelike.info/poge');
+define('SYSTEM_ROOT' , '/home/yasuaki/www/tools.codelike.info/poge'); // TODO: 適宜調整する。
 define('PAGE_TITLE' , 'Poge');
 //define("SITE_URL","http://tools.codelike.info/poge/");
 define("CLASS_FILE_DELIMTER","Ctl");
