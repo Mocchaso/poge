@@ -7,17 +7,17 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
 date_default_timezone_set('Asia/Tokyo');
 
 // DB有無 1:使う 0:使わない
-define(DB_USE, "1");
+define('DB_USE', "1");
 
 // MySql or Postgresql
-define(DB_NAME, "MySql");
-define(HOST_NAME , 'localhost');
-define(USER_NAME , 'root');
-define(PASSWORD , '198926yasusama');
-define(DATABASE , 'poge');
+define('DB_NAME', "MySql");
+define('HOST_NAME' , 'localhost');
+define('USER_NAME' , 'root');
+define('PASSWORD' , '198926yasusama');
+define('DATABASE' , 'poge');
 header('Content-Type: text/html; charset=UTF-8');
-define(SYSTEM_ROOT , '/home/yasuaki/www/tools.codelike.info/poge');
-define(PAGE_TITLE , 'Poge');
+define('SYSTEM_ROOT' , '/home/yasuaki/www/tools.codelike.info/poge');
+define('PAGE_TITLE' , 'Poge');
 //define("SITE_URL","http://tools.codelike.info/poge/");
 define("CLASS_FILE_DELIMTER","Ctl");
 define("MODEL_FILE_DELIMTER","Mdl");
@@ -28,8 +28,8 @@ define("CSS_DIR","./css/");
 define("IMAGE_DIR","./image/");
 define("ICON_MAX_NUMBER",12);
 define("JS_DIR","./js/");
-define(NO_LOGIN_ROOT, "top");
-define(LOGIN_ROOT, "main");
+define('NO_LOGIN_ROOT', "top");
+define('LOGIN_ROOT', "main");
 
 //共通クラス・共通部品等読み込み定義
 require_once './core/fireSignCtl.php';
